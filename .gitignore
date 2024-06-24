@@ -1,5 +1,6 @@
 # paths
 node_modules/
+csharp/**/bin
 
 # files
 .env
