@@ -1,6 +1,7 @@
 import FirstComponent from './components/FirstComponent';
 import SecondComponent from './components/SecondComponent';
 import State from './components/State';
+import Enum, { Category } from './components/Enum';
 
 function App() {
   const name = 'Joiaribe';
@@ -27,6 +28,9 @@ function App() {
       <FirstComponent />
       <SecondComponent name='segundo' />
       <State />
+      <Enum category={Category.JS} />
+      <Enum category={Category.PY} />
+      <Enum category={Category.TS} />
     </div>
   );
 }
