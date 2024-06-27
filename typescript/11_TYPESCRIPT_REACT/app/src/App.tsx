@@ -1,4 +1,5 @@
-import FirstComponent from "./components/FirstComponent";
+import FirstComponent from './components/FirstComponent';
+import SecondComponent from './components/SecondComponent';
 
 function App() {
   const name = 'Joiaribe';
@@ -23,6 +24,7 @@ function App() {
       {showInfo()}
 
       <FirstComponent />
+      <SecondComponent name='segundo' />
     </div>
   );
 }
