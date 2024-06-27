@@ -1,3 +1,5 @@
+import FirstComponent from "./components/FirstComponent";
+
 function App() {
   const name = 'Joiaribe';
   const age = 25;
@@ -19,6 +21,8 @@ function App() {
         <p>Você não está trabalhando</p>
       )}
       {showInfo()}
+
+      <FirstComponent />
     </div>
   );
 }
